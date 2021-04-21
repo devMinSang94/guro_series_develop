@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+
+        .content-body {
+            width: 500px;
+            margin: 50px auto;
+        }
+
+        .content-header {
+            text-align: center;
+            font-size: 30px;
+            display: block;
+            line-height: 44px;
+        }
+
+        .content-img {
+
+            object-fit: cover;
+
+        }
+
+        .content-sub {
+            display: block;
+            margin: 0 auto;
+            padding: 20px 0 45px;
+            color: #666;
+            font-size: 14px;
+            line-height: 28px;
+            letter-spacing: -.4px;
+        }
+
+        .content-btn {
+
+            text-align: center;
+            margin: 0;
+
+        }
+
+        .content-btn1 {
+            color: #fff;
+            background-color: #007fa8;
+            width: 100px;
+            height: 40px;
+            margin: 0px;
+            border: none;
+        }
+
+        .content-btn2 {
+            background-color: #e4dcd3;
+            width: 100px;
+            height: 40px;
+            border: none;
+        }
+
+        .title-bar {
+            margin: 0;
+            padding-bottom: 0;
+            border-bottom: 2px solid #7f7f7f;
+        }
+
+        /*container2*/
+        .container2 {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .th {
+            text-align: center;
+            height: 60px;
+            padding-top: 35px;
+            font-weight: bold;
+            margin: 0px;
+            background-color: #f6f3f2;
+            border-right: 1px solid #e5e5e5;
+        }
+
+        .consign-cont {
+            height: 40px;
+            padding-left: 15px;
+            padding-right: 30px;
+            font-weight: bold;
+            background-color: #f6f3f2;
+            border: none;
+        }
+
+        input::placeholder {
+            font-weight: bold;
+            font-size: 10pt;
+            color: black;
+        }
+
+        .consign-table {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .consign-bill {
+            text-align: right;
+            margin-top: 30px;
+            margin-bottom: 200px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .sale-area {
+            /*width: 100%;*/
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 150px;
+
+        }
+
+        .sale-button {
+            width: 150px;
+            height: 40px;
+            border: none;
+            margin-top: 50px;
+            font-weight: bold;
+            font-size: 15px;
+            text-align: center;
+            color: white;
+            background-color: #002C5E;
+        }
+
+        .result {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+            border-bottom: 2px solid #7f7f7f ;
+        }
+        .result-btn{
+             width: 150px;
+            height: 40px;
+            border: none;
+            margin-top: 50px;
+            margin-bottom: 100px;
+            font-weight: bold;
+            font-size: 15px;
+            text-align: center;
+            color: white;
+            background-color: #002C5E;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <title>아반떼</title>
+
+</head>
+
+<body>
+<div class="container">
+
+    <div class="content-body">
+
+        <div class="content-header">
+            <p>아반떼 자가용 가솔린 1.6 Insperation A/T</p>
+        </div>
+
+        <div class="content-img">
+            <img src="https://www.hyundai.com/contents/vr360/CN01/exterior/WAW/001.png" alt="avante-img" width="500px"
+                 height="300px">
+        </div>
+
+        <div class="content-sub">
+            <sub>*상기 이미지는 내외장 색상선택을 돕기 위한 예시 이미지로 실제 사양과 다를 수 있습니다.</sub>
+        </div>
+
+        <div class="content-btn">
+            <button class="content-btn1">Exterior</button>
+            <button class="content-btn2">Interior</button>
+        </div>
+
+
+    </div>
+</div>
+
+<div class="container2">
+    <div class="title-bar"><h2>탁송</h2></div>
+
+    <table class="consign-table">
+        <tr>
+            <td style="margin: 0; padding: 0;">
+                <div class="th">
+                    <span>탁송지역</span>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <input type="text" list="datalist" placeholder="서울" class="consign-cont"
+                           style="margin-right: 15px; margin-left: 30px">
+                    <datalist id="datalist">
+                        <option value="서울"></option>
+                        <option value="인천"></option>
+                        <option value="경기"></option>
+                        <option value="부산"></option>
+                        <option value="대구"></option>
+                        <option value="광주"></option>
+                    </datalist>
+                    <input type="text" list="datalist2" placeholder="구로구" class="consign-cont">
+                    <datalist id="datalist2">
+                        <option value="구로구"></option>
+                        <option value="양천구"></option>
+                        <option value="금천구"></option>
+                        <option value="영등포구"></option>
+                        <option value="마포구"></option>
+                        <option value="강남구"></option>
+
+                    </datalist>
+                </div>
+            </td>
+
+        </tr>
+    </table>
+    <div class="consign-bill">
+        탁송료 265,000원
+    </div>
+
+
+    <div class="sale">
+        <h2 class="title-bar">할인/포인트</h2>
+        <div class="sale-area">
+            <button class="sale-button">할인/포인트 사용하기</button>
+            <p>결제수단을 선택하고 지불조건 및 납입사항을 확인하세요.</p>
+        </div>
+    </div>
+
+
+    <h2 class="title-bar">면세 구분 및 등록비</h2>
+    <div class="result">
+
+        <p class="t">할인/포인트 및 결제 방법 선택 후 확인 가능합니다.</p>
+        <button class="result-btn">구매하기</button>
+
+    </div>
+
+</div>
+</body>
+</html>
