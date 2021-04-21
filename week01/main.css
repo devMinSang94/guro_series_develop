@@ -1,0 +1,40 @@
+/* css 문법 */
+
+*
+{
+    font-family: 'Hi Melody', cursive;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.login {
+    color: white;
+    width: 400px;
+    height: 300px;
+    background-image: url("https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    border-radius: 10px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.content {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
