@@ -20,7 +20,7 @@
 $npm test
 ```
 
-
+라이센스 , 깃사용법 , 마크다운언어(readme)
 ---
 
 [수업자료](https://bit.ly/spataD)
